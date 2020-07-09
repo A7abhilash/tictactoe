@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="tictactoe.css">
+        <link rel="icon" href="#">
+    </head>
+    <body onload="startGame()">
+        <header>Tic Tac Toe</header>
+                     <hr> <br>
+            <div id="message">its your turn</div>
+        <table border="3" align="center">
+            <tr>
+                <td class="square" id="s1" onclick="nextMove(this)"></td>
+                <td class="square" id="s2" onclick="nextMove(this)"></td>
+                <td class="square" id="s3" onclick="nextMove(this)"></td>
+            </tr>
+            <tr>
+                <td class="square" id="s4" onclick="nextMove(this)"></td>
+                <td class="square" id="s5" onclick="nextMove(this)"></td>
+                <td class="square" id="s6" onclick="nextMove(this)"></td>
+            </tr>
+            <tr>
+                <td class="square" id="s7" onclick="nextMove(this)"></td>
+                <td class="square" id="s8" onclick="nextMove(this)"></td>
+                <td class="square" id="s9" onclick="nextMove(this)"></td>
+            </tr>
+        </table>
+        <br>
+        <a href=""><button id="btn" type="submit">Start Over</button></a>
+        
+    </body>
+    <!-- Offline -->
+    <script src="JS/jQuery.js"></script>
+    <script src="JS/jqueryui/jquery-ui.js"></script>
+    <!-- Online -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+
+    <script src="tictactoe.js"></script>
+</html>
